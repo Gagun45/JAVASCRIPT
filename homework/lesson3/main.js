@@ -233,7 +233,7 @@ let usersList = [
 
 document.write('<div class="users-box">')
 for (const user of usersList) {
-    const div = `<div>
+    const div = `<div class="user-block">
 <h2>${user.id} - ${user.name} - ${user.username}</h2>
 <h3>${user.email} - ${user.phone}</h3>
 <div class="address-block">
@@ -245,3 +245,4 @@ for (const user of usersList) {
 </div>`
     document.write(div)
 }
+document.write('</div>')
