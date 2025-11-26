@@ -52,8 +52,8 @@
 {
 // ruUtWDUI
     const enter = 'Enter your'
-    const firstName = window.prompt(`${enter} first name: `)
-    const middleName = window.prompt(`${enter} last name: `)
-    const age = window.prompt(`${enter} age: `)
+    const firstName = prompt(`${enter} first name: `)
+    const middleName = prompt(`${enter} last name: `)
+    const age = +prompt(`${enter} age: `)
     console.log(firstName, middleName, age)
 }
