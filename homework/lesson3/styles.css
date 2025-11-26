@@ -5,4 +5,8 @@
 }
 .user-block {
     background-color: gray;
+    padding: 2px;
+}
+.address-block {
+    background-color: lightgray;
 }
