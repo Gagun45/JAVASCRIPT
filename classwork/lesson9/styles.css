@@ -1,0 +1,12 @@
+.wrap {
+    background-color: red;
+}
+.collapse {
+    border: 2px solid green;
+}
+.alpha {
+    color: blue;
+}
+.beta {
+    font-size: 36px;
+}
