@@ -13,6 +13,7 @@
 }
 
 {
+    // #AiN5CoUQ
     const cloneObj = (object) => {
         if (!object) throw new Error()
         const clone = JSON.parse(JSON.stringify(object))
