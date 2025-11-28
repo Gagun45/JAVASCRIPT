@@ -2,7 +2,6 @@
 const array = ['a', 'b', 'cd', 'qwe', 'xxxxxxxxxxx', 12, 24, 56, 0]
 
 // forEach
-console.log('-------foreach----------')
 Array.prototype.customForeach = function (callback) {
     for (let i = 0; i < this.length; i++) {
         callback(this[i], i, this)
@@ -15,10 +14,10 @@ function foreachCallback(value, index, array) {
 
 console.log(array);
 array.customForeach(foreachCallback)
-console.log('-------foreach----------')
+
+console.log('')
 
 // filter
-console.log('-------filter----------')
 Array.prototype.customFilter = function (callback) {
     const filtered = []
     for (let i = 0; i < this.length; i++) {
@@ -33,4 +32,3 @@ function filterCallback(value, index, array) {
 
 console.log(array);
 console.log(array.customFilter(filterCallback));
-console.log('-------filter----------')
