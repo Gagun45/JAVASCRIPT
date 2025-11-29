@@ -1,0 +1,15 @@
+
+.recipeDiv {
+    border: 2px solid black;
+    padding: 2px;
+    margin-bottom: 8px;
+}
+.recipeDiv>h2, h1 {
+    text-align: center;
+}
+
+.recipeDiv>img {
+    margin: 12px 0;
+    display: block;
+    width: 100px;
+}
